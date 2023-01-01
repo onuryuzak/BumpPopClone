@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c142329b228760f418aef9541e83ef60, type: 3}
+  m_Name: BallCount_LevelingFloat
+  m_EditorClassIdentifier: 
+  featureName: 
+  leveling: {fileID: 11400000, guid: 00b68274d65204b55bbb86732acfc22e, type: 2}
+  calculator: {fileID: 11400000, guid: 53082919a23c943fcb580c509bd39888, type: 2}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 868b4347c6254bedab4dbe7023973592, type: 3}
+  m_Name: BallCountCost_Calculator
+  m_EditorClassIdentifier: 
+  clampMinMax: {x: -3.4028235e+38, y: 3.402823e+38}
+  getSumInfo: 0
+  startValue: 10
+  repeatLastModifier: 1
+  valueModifiers:
+  - levelStartEnd: {x: 1, y: 10}
+    calculateType: 0
+    value: 11
+    hasSelfModifier: 1
+    selfModCalculateType: 0
+    selfModValue: 15

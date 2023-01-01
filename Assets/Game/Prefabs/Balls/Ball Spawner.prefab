@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2755190748911101318
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8815151377688480679, guid: 564b9dcb1f8804b41b042788e262c22b,
+        type: 3}
+      propertyPath: ballType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815151378062646924, guid: 564b9dcb1f8804b41b042788e262c22b,
+        type: 3}
+      propertyPath: m_Name
+      value: Ball Spawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815151378062646925, guid: 564b9dcb1f8804b41b042788e262c22b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815151378062646925, guid: 564b9dcb1f8804b41b042788e262c22b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815151378062646925, guid: 564b9dcb1f8804b41b042788e262c22b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815151378062646925, guid: 564b9dcb1f8804b41b042788e262c22b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815151378062646925, guid: 564b9dcb1f8804b41b042788e262c22b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815151378062646925, guid: 564b9dcb1f8804b41b042788e262c22b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815151378062646925, guid: 564b9dcb1f8804b41b042788e262c22b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815151378062646925, guid: 564b9dcb1f8804b41b042788e262c22b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815151378062646925, guid: 564b9dcb1f8804b41b042788e262c22b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815151378062646925, guid: 564b9dcb1f8804b41b042788e262c22b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8815151378062646925, guid: 564b9dcb1f8804b41b042788e262c22b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 564b9dcb1f8804b41b042788e262c22b, type: 3}
+--- !u!1 &6659084534093576970 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8815151378062646924, guid: 564b9dcb1f8804b41b042788e262c22b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2755190748911101318}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5738261290634864454 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7610521926592856768, guid: 564b9dcb1f8804b41b042788e262c22b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2755190748911101318}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6659084534093576970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 087ef35d2619607438680b7df80f4c7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6659084534650449441 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8815151377688480679, guid: 564b9dcb1f8804b41b042788e262c22b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2755190748911101318}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d67d842432df1954691bca89d37383cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5590685322992855401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6659084534093576970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8479b526f59ab1c43b2ec59a09b65b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactable: 1
+  oneShotCollision: 1
+  contactPeriod: 0
+  onCollisionEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8902162251119917270}
+        m_TargetAssemblyTypeName: BallInstantiateController, Assembly-CSharp
+        m_MethodName: CreateBalls
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onCollisionStay:
+    m_PersistentCalls:
+      m_Calls: []
+  onCollisionExit:
+    m_PersistentCalls:
+      m_Calls: []
+  onTriggerEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  onTriggerStay:
+    m_PersistentCalls:
+      m_Calls: []
+  onTriggerExit:
+    m_PersistentCalls:
+      m_Calls: []
+  layer:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!114 &8902162251119917270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6659084534093576970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88b3c0f63465cca4694f46740d11bdaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnerBall: {fileID: 6659084534650449441}
+  addForceValue: 50
+  countLevelingData: {fileID: 11400000, guid: 00b68274d65204b55bbb86732acfc22e, type: 2}
+  incomeLevelingData: {fileID: 11400000, guid: 8b426884bc1b64c8fbc05533decfad3b, type: 2}
+  ballFactory: {fileID: 11400000, guid: 955f71e27050e8740be2ef91360797c4, type: 2}
+  throwControllerVariable: {fileID: 11400000, guid: 8940fdfeeefd113409ca7d26c99220f4,
+    type: 2}
+  coinIncreaseEvent: {fileID: 11400000, guid: f313e794e5bd95349965cf86a4674f6c, type: 2}
+  mainColorSetter: {fileID: 5738261290634864454}

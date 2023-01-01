@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04129bce504b4bd190e5cc6749c92b3d, type: 3}
+  m_Name: CoinEvents
+  m_EditorClassIdentifier: 
+  increaseCoinEvent: {fileID: 11400000, guid: f313e794e5bd95349965cf86a4674f6c, type: 2}
+  decreaseCoinEvent: {fileID: 11400000, guid: 26f26c10a9b810a46a79617b1098bcab, type: 2}
+  increaseCoinWorldPosEvent: {fileID: 11400000, guid: ba09e8bd831b9a1499af42daac0b7b21,
+    type: 2}
+  increaseCoinCanvasPosEvent: {fileID: 11400000, guid: 802bc678eaa08a541b5c67a354fbc279,
+    type: 2}
+  increaseCoinAmountWorldPosEvent: {fileID: 11400000, guid: b073b069fd5a42c4d924f8da5bff97f8,
+    type: 2}
+  increaseCoinAmountCanvasPosEvent: {fileID: 11400000, guid: 03716caf107212240b97d915bdfd76b2,
+    type: 2}
+  decreaseCoinAmountWorldPosEvent: {fileID: 11400000, guid: fd2c863ca012f454bbc424a0c936a919,
+    type: 2}
+  decreaseCoinAmountCanvasPosEvent: {fileID: 11400000, guid: 061cbfcaadcfe7d49ba9c8bef89887c3,
+    type: 2}
